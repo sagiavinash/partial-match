@@ -9,18 +9,28 @@
 ## Usage
 
 ```javascript
-var sentences = [
-  'world is round',
-  'hello world',
-  'hello africa',
-  '7 continents',
-];
+var partialMatchFactory = require('partial-match');
 
 var partialMatch = partialMatchFactory({
   caseInsensitive: true,
   splitByTokens: ['-', '_'],
 });
 
+var sentences = [
+  'hello-africa',
+  'world is round',
+  'hello world',
+  'our_world_is_a_beautiful_world',
+  '7 continents',
+];
+
 console.log(partialMatch.getSuggestedMatches(sentences, 'hello world')); 
-// output: ["hello world", "world is round", "hello africa"]
+/* output
+[
+  "hello world",
+  "our_world_is_a_beautiful_world",
+  "hello-africa",
+  "world is round",
+]
+*/
 ```
