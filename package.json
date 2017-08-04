@@ -1,0 +1,24 @@
+{
+  "name": "partial-match",
+  "version": "1.0.0",
+  "description": "a search util that gives match strength of a query against a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagiavinash/partial-match.git"
+  },
+  "keywords": [
+    "search",
+    "string",
+    "match"
+  ],
+  "author": "sagiavinash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagiavinash/partial-match/issues"
+  },
+  "homepage": "https://github.com/sagiavinash/partial-match#readme"
+}
