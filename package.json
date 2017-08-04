@@ -1,6 +1,6 @@
 {
   "name": "partial-match",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a search util that gives match strength of a query against a sentence",
   "main": "index.js",
   "scripts": {
